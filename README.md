@@ -1,4 +1,3 @@
 # RubikCube
-https://www.youtube.com/watch?v=NcDALciRDIk
-# unity3d
-https://drive.google.com/open?id=0BxviYtvMZsvCYzUyampnc25rZnM
+https://www.youtube.com/watch?v=djrOhimBbyQ
+https://i.imgur.com/OEWpPdF.mp4
