@@ -256,8 +256,6 @@ level:medium
 ![](https://i.imgur.com/lYRJPHS.png)
 
 level:high
-
-# How to use Call method like Ninja?
         Cross(0, 5, 1, 7, 1, 1, 0, 5);
         Cross(1, 5, 3, 5, 5, 5, 5, 1);
         Cross(2, 5, 1, 7, 7, 7, 1, 4);
