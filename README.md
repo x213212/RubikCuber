@@ -8,7 +8,7 @@ Hi i am x213212,I have n’t been a ninja for a long time
 
 so.... let begin Ninja training?
 
-video:[yotuube](https://www.youtube.com/watch?v=djrOhimBbyQ)  project:[down](https://mega.nz/#F!cxt1HAoS!9hqsb6Xjy2H5SJNFQnZMbw?ohs0wCYQ)
+video:[yotuube](https://www.youtube.com/watch?v=djrOhimBbyQ)  project:[download](https://mega.nz/#F!cxt1HAoS!9hqsb6Xjy2H5SJNFQnZMbw?ohs0wCYQ)
 
 # Ninja Code Example
 ![](https://i.imgur.com/oPPlqjG.png)
