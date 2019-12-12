@@ -508,7 +508,8 @@ Hope i can help you become a ninja!
 ![](https://i.imgur.com/ZeVN2dU.png)
 
 more Ninja code?
-https://github.com/x213212/RubikCuber/blob/master/MagicCube.cs
+
+https://x8795278.blogspot.com/
 
 ![](https://i.imgur.com/7qXEwHZ.png)
 
