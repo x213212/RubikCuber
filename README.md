@@ -1,20 +1,20 @@
 
 ![](https://i.imgur.com/iACkwzw.png)
 
-https://www.youtube.com/watch?v=djrOhimBbyQ
 
-project:https://mega.nz/#F!cxt1HAoS!9hqsb6Xjy2H5SJNFQnZMbw?ohs0wCYQ
 
 #  How to use Ninja Code finish Project : RubikCube
 Hi i am x213212,I have n’t been a ninja for a long time
 
 so.... let begin Ninja training?
 
-|Author|x213212|
-|---|---
-|E-mail|x8795278@gmail.com
+video:
 
+[yotuube](https://www.youtube.com/watch?v=djrOhimBbyQ)
 
+project:
+
+[down](https://mega.nz/#F!cxt1HAoS!9hqsb6Xjy2H5SJNFQnZMbw?ohs0wCYQ)
 
 # Ninja Code Example
 ![](https://i.imgur.com/oPPlqjG.png)
