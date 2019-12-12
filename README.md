@@ -256,6 +256,8 @@ level:medium
 ![](https://i.imgur.com/lYRJPHS.png)
 
 level:high
+
+```c#
         Cross(0, 5, 1, 7, 1, 1, 0, 5);
         Cross(1, 5, 3, 5, 5, 5, 5, 1);
         Cross(2, 5, 1, 7, 7, 7, 1, 4);
@@ -264,6 +266,8 @@ level:high
         while (Cross(1, 5, 3, 5, 5, 5, 5, 1) == false) ;
         while (Cross(2, 5, 1, 7, 7, 7, 1, 4) == false) ;
         while (Cross(3, 5, 3, 5, 3, 3, 4, 0) == false) ;
+```
+
 
 # How to use Recursion correctly  like Ninja?
 
