@@ -166,7 +166,7 @@ public int checker2(int tmp, int tmp2, int tmp3, int tmp4, int tmp5, int tmp6, i
 ```
 
 
-# How to use Return correctly  like Ninja?
+# How to Return correctly  like Ninja?
 
 ![](https://i.imgur.com/coDIq3R.png)
 
@@ -216,7 +216,7 @@ level:medium
 
 ```
 
-# How to use Initialization correctly  like Ninja?
+# How to Initialization correctly  like Ninja?
 
 ```c#
  cubes = new Transform[]
