@@ -15,7 +15,7 @@ video:[yotuube](https://www.youtube.com/watch?v=djrOhimBbyQ)  project:[download]
 
 level:easy
 
-# How to use Variable Naming correctly like Ninja?
+# How to Variable Naming correctly like Ninja?
 ```c#
         Debug.Log("now" + groupIndex + "\n");
         int[] groupIndexs = null;
@@ -25,7 +25,7 @@ level:easy
 
 ```
 
-# How to use Expression Naming correctly like Ninja?
+# How to Expression Naming correctly like Ninja?
 ```c#
      if ((cube_arr[0, 7] == 0 && cube_arr[2, 7] == 2) || (cube_arr[0, 7] == 2 && cube_arr[2, 7] == 0) ||
             (cube_arr[1, 5] == 0 && cube_arr[3, 5] == 2) || (cube_arr[1, 5] == 2 && cube_arr[3, 5] == 0))
@@ -35,7 +35,7 @@ level:easy
 ```
 
 
-# How to use Parameter correctly like Ninja?
+# How to Parameter correctly like Ninja?
 ```c#
 public int checker2(int tmp, int tmp2, int tmp3, int tmp4, int tmp5, int tmp6, int color, int color2, int color3)
     {
@@ -77,7 +77,7 @@ public int checker2(int tmp, int tmp2, int tmp3, int tmp4, int tmp5, int tmp6, i
         }
     }
 ```
-# How to use Debug correctly like Ninja?
+# How to Debug correctly like Ninja?
 ```c#
   /*
         //Debug.Log(tmpstr);
@@ -251,7 +251,7 @@ level:medium
 };
 ```
 
-# How to use Call method like Ninja?
+# How to Call method like Ninja?
 
 ![](https://i.imgur.com/lYRJPHS.png)
 
@@ -269,7 +269,7 @@ level:high
 ```
 
 
-# How to use Recursion correctly  like Ninja?
+# How to Recursion correctly  like Ninja?
 
 ```c#
 
@@ -338,7 +338,7 @@ level:high
 
 level:god
 
-# How to use Calculation correctly like Ninja?
+# How to Calculation correctly like Ninja?
 
 ```c#
 	/* 抓4角
