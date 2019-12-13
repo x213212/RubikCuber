@@ -346,7 +346,7 @@ level:god
 		Circle(tmp,x2,y2, 50,new Color32(255, 0,0, 255));
 		Circle(tmp,x1,y2, 50,new Color32(255, 0,0, 255));
 		Circle(tmp,x2,y1, 50,new Color32(255, 0,0, 255));
-				Circle(tmp,x1+(((x2-x1)/4)*1),y1+(((y2-y1)/4)*1), 50,new Color32(255, 0,0, 255));
+		Circle(tmp,x1+(((x2-x1)/4)*1),y1+(((y2-y1)/4)*1), 50,new Color32(255, 0,0, 255));
 		Circle(tmp,x1+(((x2-x1)/4)*2),y1+(((y2-y1)/4)*1), 50,new Color32(255, 0,0, 255));
 		Circle(tmp,x1+(((x2-x1)/4)*3),y1+(((y2-y1)/4)*1), 50,new Color32(255, 0,0, 255));
 		Circle(tmp,x1+(((x2-x1)/4)*1),y1+(((y2-y1)/4)*2), 50,new Color32(255, 0,0, 255));
@@ -372,7 +372,7 @@ int test1=((((x2-x1)/4)*1))/2;
         Circle(t,x1+(((x2-x1)/4)*2),test2+y1+(((y2-y1)/4)*3), 30, GetSimilarDegree(t, x1 + (((x2 - x1) / 4) * 2), test2 + y1 + (((y2 - y1) / 4) * 3), 0));
         Circle(t,test1+x1+(((x2-x1)/4)*3),test2+y1+(((y2-y1)/4)*3), 30, GetSimilarDegree(t, test1 + x1 + (((x2 - x1) / 4) * 3), test2 + y1 + (((y2 - y1) / 4) * 3), 0));
 
-      Set_color("input1", GetSimilarDegree(t, -test1 + x1 + (((x2 - x1) / 4) * 1), -test2 + y1 + (((y2 - y1) / 4) * 1), 1),0);
+        Set_color("input1", GetSimilarDegree(t, -test1 + x1 + (((x2 - x1) / 4) * 1), -test2 + y1 + (((y2 - y1) / 4) * 1), 1),0);
         Set_color("input2", GetSimilarDegree(t, -test1 + x1 + (((x2 - x1) / 4) * 1), y1 + (((y2 - y1) / 4) * 2), 1), 1);
         Set_color("input3", GetSimilarDegree(t, -test1 + x1 + (((x2 - x1) / 4) * 1), test2 + y1 + (((y2 - y1) / 4) * 3), 1), 2);
 
