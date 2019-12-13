@@ -392,7 +392,7 @@ int test1=((((x2-x1)/4)*1))/2;
 
 level:?
 !! only last function have comment!!
-# How to use finish correctly like Ninja?
+# How to finish correctly like Ninja?
 ```c#
    public void findans()
     {
