@@ -509,17 +509,4 @@ Hope i can help you become a ninja!
 
 ![](https://i.imgur.com/ZeVN2dU.png)
 
-more Ninja code?
 
-https://x8795278.blogspot.com/
-
-![](https://i.imgur.com/7qXEwHZ.png)
-
-https://youtu.be/8qMyy-2MGvw
-
-
-![](https://i.imgur.com/OVMROpa.png)
-
-https://youtu.be/oUmTJfvO1ag
-
-goood night! XDDDD
