@@ -510,3 +510,16 @@ Hope i can help you become a ninja!
 ![](https://i.imgur.com/ZeVN2dU.png)
 
 
+
+## Open and run
+
+```
+Unity Hub → Open → select this folder, then open the main scene and press Play.
+```
+
+There is no package-manager step; the solver (`MagicCube.cs`, `Cube.cs`,
+`RotateTarget.cs`) and the visualiser are plain C# MonoBehaviours.
+
+## License
+
+Apache-2.0. See [LICENSE](LICENSE).
