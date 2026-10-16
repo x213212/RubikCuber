@@ -94,6 +94,8 @@ For the later length-6 evaluation, the same-input 8355 baseline averaged 211.91 
 
 The successful-case average excludes failures. The capped average includes each failure as 50 moves: `(972 × 5.86 + 28 × 50) / 1000` is approximately 7.096, with rounding in the reported successful-case mean. A short solution on successful cases does not establish a speedup over a baseline measured on all inputs. Move count also does not measure elapsed time.
 
+The move-count conventions also differ: the teacher baseline counts notation tokens, so `U2` counts as one token, while the model selects individual quarter turns. These historical counts have not been normalized to a shared turn metric and should not be used for a strict efficiency ranking.
+
 ## Autonomous evaluation and optional fallback
 
 Research evaluation allows the model and MCTS to solve independently. Failure stays a failure. The evaluator also computes the 8355 baseline for comparison, but does not use that solution to rescue the model rollout.
