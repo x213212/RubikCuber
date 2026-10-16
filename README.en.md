@@ -15,7 +15,7 @@ This README documents that development process, including what failed and what t
 
 The public repository contains the original Unity/C# project and this documentation. The later Python `ai8355` lab currently exists in my local checkout; its source, datasets, and checkpoints are not included in this documentation update. Cloning this repository alone does **not** provide the Python training or inference commands.
 
-The experiment results below are transcribed from local training notes dated **September 5, 2026**. They are historical observations, not a new benchmark of a published model. Those notes do not identify a frozen checkpoint hash or every evaluation setting, so they are not a complete reproduction package.
+The aggregate experiment results below are transcribed from local training notes dated **September 5, 2026**. They are historical observations, not a new benchmark of a published model. Those notes do not identify a frozen checkpoint hash or every evaluation setting, so they are not a complete reproduction package. A separate, newly executed demonstration is documented with its own inputs and checkpoint hash below.
 
 ## 1. The original Unity project
 
@@ -76,6 +76,17 @@ The learning pipeline combines several components:
 Reverse curriculum may use the inverse of a generated scramble as a **training** target. Evaluation still gives the model only the current cube. Scramble length describes how a problem was generated; it is not necessarily its optimal solution distance.
 
 Adding data did not always improve the model. One DAgger round visited 7,704 states and added 6,466 deduplicated examples, but its fine-tuning runs failed to beat the earlier checkpoint. The better checkpoint was retained. Later work focused on failed MCTS episodes and increased the weight of corrective examples.
+
+## A verified solve demonstration — October 17, 2026
+
+![Before and after an actual autonomous model-plus-MCTS solve, including all six faces and the verified six-move solution.](https://x213212.github.io/assets/projects/rubik8355/success-comparison-en.png)
+
+For this demonstration, the current local checkpoint received the facelets produced by the fixed scramble `R U F' L D B'`. With 64 MCTS simulations per move, it selected `B D' L' F U' R'` and solved the cube in six quarter turns, without teacher fallback or access to the scramble history. Both the geometric engine and the independently implemented legacy turn engine replayed every selected move, agreed at each step, and ended with all 54 facelets solved.
+
+- [Step-by-step replay animation](https://x213212.github.io/assets/projects/rubik8355/success-replay.gif)
+- [Recorded inputs, selected moves, every facelet state, settings, and checkpoint SHA-256](https://x213212.github.io/assets/projects/rubik8355/success-evidence.json)
+
+This is one verified success example. It does not replace the aggregate historical evaluations or establish a new success rate.
 
 ## Recorded results and how to read them
 
