@@ -1,3 +1,4 @@
+[English project history and AI experiment results](README.en.md)
 
 ![](https://i.imgur.com/iACkwzw.png)
 
